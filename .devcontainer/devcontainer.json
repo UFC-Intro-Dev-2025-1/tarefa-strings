@@ -16,7 +16,10 @@
                 "editor.wordWrap": "on", //melhor configuração s2
                 "editor.defaultFormatter": "esbenp.prettier-vscode",
                 "prettier.singleQuote": true,
-                "prettier.tabWidth": 4 //hora de acabar com essa briga, sempre soubemos que tab = 4 spaces
+                "prettier.tabWidth": 4, //hora de acabar com essa briga, sempre soubemos que tab = 4 spaces
+                "github.copilot.enable": {
+                    "*": false
+                }
             },
             // Adicione a extensão pelo ID
             "extensions": [
