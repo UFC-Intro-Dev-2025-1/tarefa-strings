@@ -1,25 +1,34 @@
-# 🎯 Tarefa - Tipos - Descrição
+# 🎯 Tarefa - Strings - Descrição
 
-1. Implemente elementos da sala de aula como variáveis em TypeScript com tipos: `number`, `string`, `boolean`, `undefined` e objeto. Exiba as variáveis no terminal.
+Esta atividade está descrita nos arquivos `src/main.ts`, `src/extra1.ts`, `src/extra2.ts` e `src/extra3.ts`. Implemente a solução em cada arquivo.
 
-Use o arquivo `src/main.ts` para implementar a solução.
-
-Para compilar e executar o programa:
-
+## Para rodar o programa do arquivo:
 ```bash
-npm run build
+npx tsx src/nomedoarquivo.ts
 ```
 
-2. Suba seu código para o repositório.
+## Para testar todos os arquivos
+```bash
+npm test
+```
+
+## Para verificar o TypeScript
+```bash
+npx eslint src/extra1.ts
+```
+
+## Subir minha resposta
+Para cada solução faça 1 commit seguindo os passos abaixo. Atenção para alterar a mensagem do commit.
 
 ```bash
 git status
 git add .
 git status
-git commit -m "feat: solução d tarefa"
+git commit -m "feat: solução da tarefa - atividade extra1"
 git status
 git log
 git push
 ```
 
-3. Finalize esta atividade no Google Classroom.
+## Finalize a atividade 
+Finalize a atividade no Google Classroom. Não deixe de enviar mesmo que tenha erros, dúvidas ou não esteja finalizada.
